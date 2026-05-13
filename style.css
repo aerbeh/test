@@ -7,9 +7,16 @@
 
 body {
     
-    background: linear-gradient(20deg, #17154e, #000000);
+    background: linear-gradient(
+    180deg,
+    #CEDAD2,
+    #B4D2D0,
+    #62B4CA,
+    #0784A5,
+    #001936
+    );
     line-height: 2pc;
-    color: white;
+    
 
 }
 
