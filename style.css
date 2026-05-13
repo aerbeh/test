@@ -183,7 +183,7 @@ h1 {
     margin-top: 10px;
     font-size: 20px;
     font-weight: bold;
-    color: white;
+   
 }
 
 /* Tanggal lahir */
@@ -199,14 +199,14 @@ h1 {
 }
 
 .iden p{
-    background: linear-gradient(45deg, #fa0318, #d400ff);
+    background: linear-gradient(45deg, #9afaff, #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   
 }
 
 .iden h3{
-    background: linear-gradient(45deg, #fa0318, #d400ff);
+    background: linear-gradient(45deg, #9afaff, #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
