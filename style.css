@@ -78,7 +78,7 @@ nav.logo {
 header{
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),  
      url(images/kelas.jpeg);
-    font-size: 200px;
+    font-size: 10vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -95,12 +95,14 @@ header{
 
 h1 { 
     color: transparent;
-    -webkit-text-stroke: 9px rgba(250, 250, 250, 0.395); /* outline 2px warna putih */
+    -webkit-text-stroke: 0.1vh rgba(250, 250, 250, 0.395); 
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     display: flex;
     position: sticky;
-    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1vh, 1fr));               
+    column-gap: 5rem;
 }
 
 
@@ -157,7 +159,14 @@ h1 {
 }
 
 .iden {
-    background: rgba(60, 205, 215, 0.566);
+    background: linear-gradient(
+    360deg,
+    #CEDAD2,
+    #B4D2D0,
+    #62B4CA,
+    #0784A5,
+    #044289
+    );
     border: 5px solid rgb(255, 255, 255);
     border-radius: 18px;
     padding: 15px;
@@ -215,3 +224,6 @@ h1 {
     text-align: center;
 }
 
+ .header p {
+    color: #0784A5;
+ }
