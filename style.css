@@ -125,10 +125,10 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));               
     max-width: 1300px;
     margin: 0 auto;
-    row-gap: 10rem;
-    column-gap: 8rem;
-    padding-left: 40px;
-    padding-right: 40px;
+    row-gap: 5vh;
+    column-gap: 8%;
+    padding-left: 5vh;
+    padding-right: 5vh;
     justify-content: center;
     display: absolute;
 }
