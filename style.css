@@ -126,7 +126,7 @@ h1 {
     max-width: 1300px;
     margin: 0 auto;
     row-gap: 10rem;
-    column-gap: 10rem;
+    column-gap: 8rem;
     padding-left: 40px;
     padding-right: 40px;
     justify-content: center;
@@ -160,7 +160,7 @@ h1 {
 
 .iden {
     background: linear-gradient(
-    90deg,
+    180deg,
     #CEDAD2,
     #B4D2D0,
     #62B4CA,
