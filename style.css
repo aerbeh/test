@@ -15,9 +15,7 @@ body {
     #0784A5,
     #001936
     );
-    line-height: 2pc;
-    
-
+    line-height: 200%;
 }
 
 nav {
@@ -76,7 +74,7 @@ nav.logo {
 
 
 header{
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),  
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),  
      url(images/kelas.jpeg);
     font-size: 10vh;
     background-repeat: no-repeat;
@@ -101,7 +99,7 @@ h1 {
     display: flex;
     position: sticky;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(1vh, 1fr));               
+    grid-template-columns: repeat(auto-fit, minmax(1px, 1fr));               
     column-gap: 5rem;
 }
 
@@ -127,13 +125,20 @@ h1 {
     margin: 0 auto;
     row-gap: 5vh;
     column-gap: 8%;
-    
+    padding-left: 10px;
+    padding-right: 10px;
     justify-content: center;
     display: absolute;
 }
 
 
+.member .iden:nth-child(33){
+    grid-column: 2;
+}
 
+.member .iden:nth-child(34){
+    grid-column: 3;
+}
     
 .member img {
     width: 100%;
