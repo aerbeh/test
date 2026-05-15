@@ -125,13 +125,7 @@ h1 {
 }
 
 
-.member .iden:nth-child(33){
-    grid-column: 2;
-}
 
-.member .iden:nth-child(34){
-    grid-column: 3;
-}
     
 .member img {
     width: 100%;
@@ -239,5 +233,14 @@ h1 {
 .huhu {
     padding-top: 10vh;
     padding-bottom: 10vh;
+}
+
+@media (min-width: 992px) {
+    .member .iden:nth-last-child(2) {
+        grid-column: 2;
+    }
+    .member .iden:last-child(3) {
+        grid-column: 3;
+    }
 }
 
