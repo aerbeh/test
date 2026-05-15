@@ -74,7 +74,8 @@ header{
     background-position: center;
     background-size: cover;
     max-width: 100%;       
-    display: block;            
+    display: block;  
+    height:100vh;
    
 }
 
