@@ -124,6 +124,14 @@ h1 {
     display: absolute;
 }
 
+
+.member .iden:nth-child(33){
+    grid-column: 2;
+}
+
+.member .iden:nth-child(34){
+    grid-column: 3;
+}
     
 .member img {
     width: 100%;
