@@ -120,7 +120,7 @@ h1 {
 
 .member {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));               
+    grid-template-columns: repeat(4, 1fr);               
     max-width: 1300px;
     margin: 0 auto;
     row-gap: 5vh;
@@ -247,3 +247,52 @@ h1 {
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
+
+@media (max-width: 768px) {
+
+    header {
+        height: 50vh;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header-content h1 {
+        font-size: 28px;
+    }
+
+    .header-content p {
+        font-size: 16px;
+    }
+
+    /* Grid foto orang (bagian .member) */
+    .member {
+        grid-template-columns: repeat(4, 1fr); /* 2 kolom di HP */
+        gap: 10px;
+    }
+
+    .member img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Bagian left dan right jadi bertumpuk */
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .member .iden:nth-last-child(2) {
+        grid-column: 2;
+    }
+    .member .iden:last-child(3) {
+        grid-column: 3;
+    }
+}
+
