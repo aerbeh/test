@@ -74,18 +74,19 @@ nav.logo {
 
 
 header{
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),  
-     url(images/kelas.jpeg);
-    font-size: 10vh;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url(images/kelas.jpeg);
     background-size: cover;
-    height: 100vh;            
-    display: flex;            
-    justify-content: center;  
-    align-items: center; 
-    
-   
+    background-position: top center;
+    background-repeat: no-repeat;
+
+    height: 95vh;       /* aman untuk laptop & hp */
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
 }
 
 
@@ -93,14 +94,11 @@ header{
 
 h1 { 
     color: transparent;
-    -webkit-text-stroke: 0.1vh rgba(250, 250, 250, 0.395); 
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    display: flex;
-    position: sticky;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(1px, 1fr));               
-    column-gap: 5rem;
+    -webkit-text-stroke: 0.4px rgba(255, 255, 255, 0.7);
+    font-family: 'Times New Roman', serif;
+    font-size: 12vw;
+    margin: 0;
+    display: block;
 }
 
 
@@ -120,7 +118,7 @@ h1 {
 
 .member {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);               
+    grid-template-columns: repeat(4, 1fr);          
     max-width: 1300px;
     margin: 0 auto;
     row-gap: 5vh;
@@ -130,6 +128,8 @@ h1 {
     justify-content: center;
     display: absolute;
 }
+
+
 
     
 .member img {
@@ -218,7 +218,7 @@ h1 {
     color: #0784A5;
  }
 
-.about {
+ .about {
     background: linear-gradient(
     180deg,
     #cedad2,
@@ -288,3 +288,14 @@ h1 {
     }
 }
 
+@media (max-width: 768px) {
+
+    header {
+        height: 45vh;               /* lebih pendek karena HP portrait */
+        background-position: top center;
+    }
+
+    h1 {
+        font-size: 18vw;            /* supaya tidak ketarik */
+    }
+}
