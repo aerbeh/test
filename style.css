@@ -79,11 +79,11 @@ header{
     font-size: 10vh;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    height: 100vh;            
+    background-size: cover;          
     display: flex;            
     justify-content: center;  
     align-items: center; 
+    max-width:100%;
     
    
 }
