@@ -225,3 +225,25 @@ h1 {
  .header p {
     color: #0784A5;
  }
+
+.about {
+    background: linear-gradient(
+    180deg,
+    #cedad2,
+    #B4D2D0,
+    #62B4CA,
+    #0784A5,
+    #001936
+    );
+    margin:0; 
+}
+
+.about h2{
+    padding-top: 20vh;
+    font-size: 10vh;
+}
+
+.huhu {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
