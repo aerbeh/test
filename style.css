@@ -15,7 +15,7 @@ body {
     #0784A5,
     #001936
     );
-    line-height: 200%;
+    height: 100%;
 }
 
 nav {
@@ -239,11 +239,13 @@ h1 {
 .about h2{
     padding-top: 20vh;
     font-size: 10vh;
+    font-size: 100px;
 }
 
 .huhu {
     padding-top: 10vh;
     padding-bottom: 10vh;
+    font-size: 100px;
 }
 
 
