@@ -80,7 +80,7 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;            
+    height: 700px;            
     display: flex;            
     justify-content: center;  
     align-items: center; 
@@ -115,7 +115,7 @@ h1 {
 .about {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     margin: 5%;
 }
 
@@ -171,9 +171,7 @@ h1 {
     /* 3D */
     transform-style: preserve-3d;
     transition: transform 0.75s ease, box-shadow 0.75s ease;
-    width: 100%;
-    flex-wrap: wrap;
-    flex-direction: row;
+   
 }
 
 /* Foto di dalam ID card */
@@ -237,9 +235,10 @@ h1 {
 }
 
 .about h2{
-    padding-top: 20vh;
+    padding-top: 10vh;
     font-size: 10vh;
-    font-size: 100px;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .huhu {
@@ -255,3 +254,4 @@ h1 {
 .member .iden:nth-child(34) {
         grid-column: 3;
 }
+
