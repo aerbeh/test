@@ -15,9 +15,7 @@ body {
     #0784A5,
     #001936
     );
-    min-height: 100vh;
-    height: auto;
-    width: 100%;
+    line-height: 200%;
 }
 
 nav {
@@ -132,7 +130,6 @@ h1 {
     padding-right: 10px;
     justify-content: center;
     display: absolute;
-    align-items: center;
 }
 
 
@@ -234,7 +231,7 @@ h1 {
     #B4D2D0,
     #62B4CA,
     #0784A5,
-    #001936,
+    #001936
     );
     margin:0; 
 }
@@ -250,12 +247,9 @@ h1 {
 }
 
 
-
 .member .iden:nth-child(33) {
-    grid-column: 2;
+        grid-column: 2;
 }
-
 .member .iden:nth-child(34) {
-    grid-column: 3;
+        grid-column: 3;
 }
-    
